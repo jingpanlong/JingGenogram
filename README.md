@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/JingPu-logo.png" alt="JingGenogram Logo" width="320"/>
+  <img src="docs/images/JingPu-logo.png" alt="景·谱 Logo" width="320"/>
 </p>
 
-<h1 align="center">JingGenogram</h1>
+<h1 align="center">景·谱 JingGenogram</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.5.0-blue" alt="version"/>
@@ -11,105 +11,105 @@
   <img src="https://img.shields.io/badge/.NET%20Framework-4.5%2B-68217A" alt="framework"/>
 </p>
 
-<p align="center">An offline, open-source Chinese family-archive and pedigree-diagram tool — keeping family memory traceable and every name remembered.</p>
+<p align="center">一款离线、开源的中文家谱档案与世系图工具，让家族记忆有迹可循，让每一个名字被记住。</p>
 
 ---
 
-## Introduction
+## 简介 · Introduction
 
-**JingGenogram** (景·谱) is an offline Chinese genealogy & family-tree manager that supports multiple independent family trees. It brings member profiles, kinship, pedigree diagrams, family chronicles and archives together in one place — ideal for family record-keeping, clan-tree organization and heritage preservation. All content is edited by you; the software never judges historical authenticity on its own.
+**景·谱** 是一款支持管理多个独立家谱的离线中文工具，将成员档案、亲缘关系、世系图、大事记与家族资料汇集于一处。适合家庭记录、族谱整理与家风传承。所有内容由使用者自行编修，软件不会自动判断历史真实性。
 
 JingGenogram is an offline, open-source Chinese genealogy & family-tree manager. It keeps member profiles, kinship, pedigree diagrams, family chronicles and archives in one place — fully offline, no account or network required.
 
-> 🔗 Repository: **https://github.com/jingpanlong/JingGenogram**
-> The in-app "About" page also embeds this address with one-click open/copy.
+> 🔗 项目地址 / Repository: **https://github.com/jingpanlong/JingGenogram**
+> 软件「关于」页也内置了该地址，可一键打开或复制。
 
 ---
 
-## Features
+## 功能一览 · Features
 
-- **Multiple family trees**: each tree has its own directory with independent attachments and backups; supports create, duplicate, switch, rename, and add-from-ZIP.
-- **Recycle & permanent delete**: the recycle area can be restored; v1.5 adds "delete selected permanently" and "empty recycle area", requiring you to type the full name to confirm, preventing accidental deletion.
-- **Member profiles**: avatar, biography, multiple spouses and parent/child relationships, full-text search and filtering.
-- **Kinship lookup**: query the kinship path between any two people.
-- **Pedigree diagrams**: family-group pedigree charts with three themes (Ink / Jade / Indigo), detailed / compact cards, photos, ancestor / descendant / close-relative views; supports SVG / EMF vector export, interactive web pages, high-res / transparent PNG, and paginated printing / PDF.
-- **Editing workbench**: quick-add relatives, duplicate merge, batch completion, and an editing to-do list.
-- **Family chronicle & collection**: birthday / anniversary reminders, generational-name and origin statistics, and attachment management.
-- **Data interchange**: editable Excel export and re-import by ID, Excel / CSV template download and import, JSON / GEDCOM import and export, CSV export, HTML family album, and ZIP full backup & restore.
-- **Fully offline**: no family content is uploaded; no network or registration required.
+- **多家谱管理**：每份家谱独立目录，含独立附件与备份；支持新建、复制、切换、重命名、从 ZIP 新增。
+- **回收与永久删除**：回收区可恢复；1.5 新增「永久删除选中」与「清空回收区」，需手工输入完整名称确认，防误删。
+- **成员档案**：头像、生平、多配偶与父母子女关系、全文检索与筛选。
+- **亲缘查询**：查询两人之间的亲缘路径。
+- **世系图谱**：家庭组世系图，三套主题（墨印 / 玉笺 / 黛青）、详细 / 紧凑卡片、照片、祖先 / 后代 / 近亲视图；支持 SVG / EMF 矢量导出、交互网页、高清 / 透明 PNG、分页打印 / PDF。
+- **编修工作台**：快捷添加亲属、重复合并、批量补全、编修待办。
+- **家族大事记与资料收藏**：生日 / 忌日提醒、字辈与籍贯统计、资料附件管理。
+- **数据互通**：可编辑 Excel 导出与按编号回填，Excel / CSV 模板下载与导入，JSON / GEDCOM 导入导出，CSV 导出，HTML 家谱册，ZIP 完整备份恢复。
+- **完全离线**：不上传任何家谱内容，无需联网、无需注册。
 
 ---
 
-## Screenshots
+## 界面预览 · Screenshots
 
-| Tree overview | Member profile | Pedigree diagram |
+| 家谱概览 | 成员档案 | 世系图谱 |
 | --- | --- | --- |
-| ![Tree overview](docs/images/家谱概览.png) | ![Member profile](docs/images/成员档案.png) | ![Pedigree diagram](docs/images/世系图谱.png) |
+| ![家谱概览](docs/images/家谱概览.png) | ![成员档案](docs/images/成员档案.png) | ![世系图谱](docs/images/世系图谱.png) |
 
-| Editing workbench | Family chronicle | Data management |
+| 编修工作台 | 家族大事记 | 数据管理 |
 | --- | --- | --- |
-| ![Editing workbench](docs/images/编修工作台.png) | ![Family chronicle](docs/images/家族大事记.png) | ![Data management](docs/images/数据管理.png) |
+| ![编修工作台](docs/images/编修工作台.png) | ![家族大事记](docs/images/家族大事记.png) | ![数据管理](docs/images/数据管理.png) |
 
-> The "About Software" page embeds the GitHub repository address with one-click open/copy:
+> 「关于软件」页已内置 GitHub 仓库地址，可一键打开或复制：
 >
-> ![About Software](docs/images/关于软件.png)
+> ![关于软件](docs/images/关于软件.png)
 
 ---
 
-## Download
+## 下载与安装 · Download
 
-Download the latest version from **[Releases](https://github.com/jingpanlong/JingGenogram/releases)**:
+前往 **[Releases](https://github.com/jingpanlong/JingGenogram/releases)** 页面下载最新版本：
 
-| File | Description |
+| 文件 | 说明 |
 | --- | --- |
-| `JingGenogram-1.5.0-setup.exe` | Installer (recommended): includes Start Menu entry and uninstaller |
-| `JingGenogram-1.5.0.exe` | Single-file build: no install, double-click to run |
+| `JingGenogram-1.5.0-setup.exe` | 安装版（推荐）：含开始菜单入口与卸载程序 |
+| `JingGenogram-1.5.0.exe` | 单文件版：无需安装，双击即运行 |
 
-- **Requirements**: Windows 10 / 11 with the system's built-in .NET Framework 4.5 or later (no extra runtime needed).
-- **Fully offline**: no network or registration required.
-- After downloading, we recommend verifying the checksums in `SHA256SUMS.txt`.
+- **运行环境**：Windows 10 / 11，系统自带 .NET Framework 4.5 或更高版本（无需额外运行库）。
+- **完全离线**：无需联网、无需注册。
+- 下载后建议核对 `SHA256SUMS.txt` 中的校验值。
 
 ---
 
-## Build from Source
+## 从源码构建 · Build from Source
 
-The source is compiled with the system's built-in Windows .NET Framework C# compiler — no third-party runtime dependencies.
+源码使用系统自带的 Windows .NET Framework C# 编译器生成，无第三方运行库依赖。
 
 ```powershell
-# In Windows PowerShell, enter the source directory and run:
+# 在 Windows PowerShell 中，进入源码目录后执行：
 cd src
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
-Build output is in `src/dist/`:
+构建产物位于 `src/dist/`：
 
-- `JingFamily.exe` — single-file main program
-- `JingFamily-Setup.exe` — installer embedding the main program
+- `JingFamily.exe` —— 单文件主程序
+- `JingFamily-Setup.exe` —— 内嵌主程序的安装包
 
-> The build needs `JingPu-icon-256.png` (provided with the repo); `build.ps1` references it automatically.
-
----
-
-## Data & Privacy
-
-- This software **does not upload** family content. Please obtain consent before entering contact info, addresses, or photos of living relatives.
-- Full backups and JSON contain personal profiles and are unencrypted — keep them in a trusted location; CSV also includes contact info.
-- Birthdays are calculated by the Gregorian calendar; if the date is unknown, only the year or year-month may be filled.
-- GEDCOM is read/written in UTF-8 and covers basic person and family relationships.
-- System printing can use an installed PDF printer; attachments open with the corresponding program on your system.
-- Uninstalling keeps the family root directory by default (located at `%LOCALAPPDATA%\JingFamily`).
+> 构建需要 `JingPu-icon-256.png`（已随仓库提供），`build.ps1` 会自动引用。
 
 ---
 
-## License
+## 使用与数据说明 · Data & Privacy
 
-This project is open-sourced under the **MIT License** — see [LICENSE](LICENSE).
+- 本软件**不上传**家谱内容。请在录入在世亲属的联系方式、住址、照片前征得对方同意。
+- 完整备份及 JSON 含个人档案，未加密，请保存在可信位置；CSV 亦包含联系方式。
+- 生日按公历计算；日期未知可只填年或年月。
+- GEDCOM 以 UTF-8 读写，兼容基础人物和家庭关系。
+- 系统打印可选择已安装的 PDF 打印机；附件需系统中对应的程序打开。
+- 卸载软件默认保留家谱总目录（位于 `%LOCALAPPDATA%\JingFamily`）。
 
 ---
 
-## Contact
+## 开源协议 · License
 
-- WeChat Official Account: 景同志
-- Xiaohongshu: 景同学
+本项目以 **MIT 协议** 开源，详见 [LICENSE](LICENSE)。
 
-Feedback on usage and family-tree editing is welcome. You can also open an Issue on GitHub or contribute improvements.
+---
+
+## 联系作者 · Contact
+
+- 微信公众号：景同志
+- 小红书：景同学
+
+欢迎交流软件使用体验与家谱编修心得。也可直接在 GitHub 提交 Issue 或参与改进。
